@@ -4,14 +4,13 @@ Latest Version 3.9.0 - 02 January 2022
 --------
 **https://codecanyon.net/item/stockyultimate-inventory-management-system-with-pos/31445124**
 
-Added : Add Korean language
-Added : Add Paid Amount & Due on pdf
-Added : Add Note on Detail transaction
-Fixed : Search box fixed
-Fixed : Bug fixes****
+# Added : Add Paid Amount & Due on pdf
+# Added : Add Note on Detail transaction
+# Fixed : Search box fixed
+# Fixed : Bug fixes****
 
-Awesome Features:
-DASHBOARD :
+# Awesome Features:
+# DASHBOARD :
 Today Sales & Income & Expenses & Profit
 This Week Sales & Purchases
 Top Selling Products This Month & Year
@@ -44,7 +43,7 @@ Export Sales as Pdf & Excel
 Download as pdf
 Send Sale Pdf on mail
 >
-PURCHASES :
+# PURCHASES :
 Add, edit, delete & view Purchases
 Payments (add, edit, delete)
 Export Purchases as Pdf & Excel
@@ -56,7 +55,7 @@ Payments (add, edit, delete)
 Export Returns as Pdf & Excel
 Download as pdf
 Send Return Pdf on mail
-PEOPLE :
+# PEOPLE :
 Add, edit, delete & view users, assign roles
 Add, edit, delete & view customers & suppliers
 Export Users & customers & suppliers as Pdf & Excel
@@ -68,7 +67,7 @@ Payments Reports
 profit/loss
 purchase & Sales report
 Customers, suppliers reports
-SETTINGS :
+# SETTINGS :
 Edit Logo, Company Name , Email Etc …
 Edit SMTP Server for Mail Notification
 Edit user profile, change password
@@ -79,7 +78,7 @@ Add, edit, delete & view Brands
 Add, edit, delete & view Category
 Add, edit, delete & view units
 Auto Generate Backup
-OTHER :
+# OTHER :
 Multilingual : (English, French, Spanish, Arabic, German, Italien , Turc , Indonesian , Chinese, Thaï, Russian , Hindi , Vietnamien . More will be added soon)
 
 Export table contents to PDF or Excel
