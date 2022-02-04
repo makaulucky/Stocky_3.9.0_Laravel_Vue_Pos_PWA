@@ -4,10 +4,12 @@ Latest Version 3.9.0 - 02 January 2022
 --------
 **https://codecanyon.net/item/stockyultimate-inventory-management-system-with-pos/31445124**
 
-# Added : Add Paid Amount & Due on pdf
-# Added : Add Note on Detail transaction
-# Fixed : Search box fixed
-# Fixed : Bug fixes****
+--------
+Added : Add Paid Amount & Due on pdf
+Added : Add Note on Detail transaction
+Fixed : Search box fixed
+Fixed : Bug fixes
+--------
 
 # Awesome Features:
 # DASHBOARD :
