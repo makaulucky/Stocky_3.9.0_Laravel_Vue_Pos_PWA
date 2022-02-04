@@ -1,0 +1,145 @@
+.barcodea4{
+    width: 8.25in;
+    height: 11.6in;
+    display: block;
+    border: 1px solid #CCC;
+    margin: 10px auto;
+    padding: 0.1in 0 0 0.1in;
+    page-break-after: always;
+}
+
+.barcode_non_a4{
+    width: 8.45in;
+    height: 10.3in;
+    display: block;
+    border: 1px solid #CCC;
+    margin: 10px auto;
+    padding-top: 0.1in;
+    page-break-after: always;
+}
+
+.barcode_non_a4 .barcode-item {
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	border: 1px dotted #CCC;
+	font-size: 12px;
+	line-height: 14px;
+	text-transform: uppercase;
+	float: left;
+} 
+
+.barcode_non_a4 .barcode-name{
+	display: block;
+}
+
+.barcodea4 .barcode-name{
+	display: block;
+}
+
+.barcodea4 .style24 .barcode-name{
+	font-size: 14px;
+}
+
+.barcodea4 .style18 .barcode-name{
+	font-size: 14px;
+}
+
+.barcodea4 .style12 .barcode-name{
+	font-size: 15px;
+}
+
+.barcode_non_a4 .barcode-name{
+	font-size: 14px;
+}
+.barcode_non_a4 .style10 .barcode-name{
+	font-size: 16px;
+}
+
+.barcodea4 .barcode-item {
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	border: 1px dotted #CCC;
+	font-size: 12px;
+	line-height: 14px;
+	text-transform: uppercase;
+	float: left;
+} 
+
+.barcodea4 .style40 {
+    width: 1.799in;
+    height: 1.003in;
+	margin: 0 0.07in;
+	padding-top: 0.05in;
+} 
+
+.barcode_non_a4 .style30 {
+    width: 2.625in;
+    height: 1in;
+	margin: 0 0.07in;
+	padding-top: 0.05in;
+} 
+
+.barcode_non_a4 .style30:nth-child(3n+1) {
+    margin-left: 0.1in;
+} 
+
+.barcodea4 .style24 {
+    width: 2.48in;
+    height: 1.335in;
+	margin-left: 0.079in;
+	padding-top: 0.05in;
+} 
+
+.barcode_non_a4 .style20 {
+    width: 4in;
+    height: 1in;
+	margin: 0 0.1in;
+	padding-top: 0.05in;
+} 
+
+.barcodea4 .style18 {
+    width: 2.5in;
+    height: 1.835in;
+	margin-left: 0.079in;
+	padding-top: 0.05in;
+	font-size: 13px;
+	line-height: 20px;
+} 
+
+.barcode_non_a4 .style14 {
+    width: 4in;
+    height: 1.33in;
+	margin: 0 0.1in;
+	padding-top: 0.1in;
+} 
+
+.barcodea4 .style12 {
+    width: 2.5in;
+    height: 2.834in;
+	margin-left: 0.079in;
+	padding-top: 0.05in;
+	font-size: 14px;
+	line-height: 20px;
+} 
+
+.barcode_non_a4 .style10 {
+    width: 4in;
+    height: 2in;
+	margin: 0 0.1in;
+	padding-top: 0.1in;
+	font-size: 14px;
+	line-height: 20px;
+} 
+
+@media print{
+	.barcode_non_a4 , .barcodea4{
+		margin: 0;
+	}
+
+	.barcode_non_a4 , .barcode_non_a4 .barcode-item, .barcodea4 , .barcodea4 .barcode-item{
+		border: none!important;
+	}
+}
+	

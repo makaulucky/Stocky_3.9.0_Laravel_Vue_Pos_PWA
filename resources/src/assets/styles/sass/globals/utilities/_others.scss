@@ -1,0 +1,45 @@
+._dot {
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+._inline-dot{
+    display: inline-block;
+}
+
+._round-button{
+    border-radius: 50%!important;
+}
+.progress--height-2{ 
+    height:5px;
+}
+
+.input-group ~ .invalid-feedback{
+    display: block;
+}
+
+.form-control.is-invalid .invalid-feedback{
+    display: block;
+}
+  
+.b-form-file.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+input.is-invalid ~  .invalid-feedback{
+    display: block;
+}
+
+.tag-custom.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+  
+#my-strictly-unique-vue-upload-multiple-image {
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+

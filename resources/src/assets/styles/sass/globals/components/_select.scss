@@ -1,0 +1,11 @@
+.v-select{
+    background: #F3F4F6;
+}
+
+.v-select.is-invalid ~ .invalid-feedback {
+    display: block;
+  }
+
+  .vs__search, .vs__search:focus{
+    height: calc(1rem + 7px);
+  }

@@ -1,0 +1,4 @@
+name,code,category,brand,cost,price,unit,stock_alert,note
+Product 1,23454378,Perfume,gucci,15,20,pc,0,details product 1
+Product 2,11111111,Sport,Nike,30,45,pc,10,details product 2
+Product 3,88888888,Fruit,,5,7,kg,50,details product 3

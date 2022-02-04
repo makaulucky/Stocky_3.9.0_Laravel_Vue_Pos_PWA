@@ -1,0 +1,3 @@
+name,email,country,city,phone,adresse
+client 1,client1@example.com,usa,New york,1234567,New york city
+client 2,client2@example.com,France,Paris,1234567,Paris city

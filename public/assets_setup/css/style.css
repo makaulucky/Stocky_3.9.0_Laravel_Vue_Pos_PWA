@@ -1,0 +1,194 @@
+@media screen and (max-width:768px) {
+	.btn {
+		display: block;
+		width: 100%;
+	}
+}
+
+.icon-ok {
+	color: #27ae60;
+}
+
+.icon-remove {
+	color: #c0392b;
+}
+
+#tochange {
+	background: #f3f3f3 !important;
+	padding: 20px;
+}
+
+body,
+input {
+	font-family: 'Quicksand', sans-serif;
+	background: #1f2720
+}
+
+.container-progress {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	background: white;
+	width: 750px;
+}
+
+.container-progress .section-setup{
+	background:#f4645f;
+	color:white;
+}
+
+.container-progress .section-setup h1{
+	font-size:1.5rem;
+	padding:30px 0px
+}
+
+input::placeholder {
+	color: rgba(0, 0, 0, 0.17) !important;
+}
+
+.progressbar {
+	counter-reset: headings;
+	list-style: none;
+}
+
+.progressbar li {
+	list-style-type: none;
+	width: 20%;
+	float: left;
+	font-size: 12px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	color: #7d7d7d;
+}
+
+.progressbar li:before {
+	width: 30px;
+	height: 30px;
+	counter-increment: headings;
+	content: counter(headings, decimal);
+	line-height: 26px;
+	border: 2px solid #7d7d7d;
+	display: block;
+	text-align: center;
+	margin: 0 auto 10px auto;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.progressbar li:after {
+	width: 100%;
+	height: 20px;
+	content: '';
+	position: absolute;
+	background-color: #7d7d7d;
+	top: 15px;
+	left: -50%;
+	z-index: -1;
+}
+
+.progressbar li:first-child:after {
+	content: none;
+}
+
+.tip {
+	color: #f4645f;
+}
+
+.progressbar li.active,
+li.active a {
+	color: black;
+}
+
+li a {
+	color: #7d7d7d;
+}
+
+.progressbar li.active:before {
+	border-color: #31d02a;
+	background: #31d02a;
+	color: white;
+}
+
+.btn-success {
+	background-color: #31d02a;
+	border-color: #31d02a;
+}
+
+.background {
+	padding-top: 40px;
+	background-image: url(https://images.unsplash.com/photo-1500534623283-312aade485b7?ixlib=rb-0.3.5…EyMDd9&s=7002036…&auto=format&fit=crop&w=1350&q=50);
+	height: 100vh;
+	width: auto;
+	background-size: cover;
+}
+
+#errormsg {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.loader,
+.loader:before,
+.loader:after {
+	background: black;
+	;
+	-webkit-animation: load1 1s infinite ease-in-out;
+	animation: load1 1s infinite ease-in-out;
+	width: 1em;
+	height: 4em;
+}
+
+.loader {
+	color: black;
+	text-indent: -9999em;
+	margin: 88px auto;
+	position: relative;
+	font-size: 11px;
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+}
+
+.loader:before,
+.loader:after {
+	position: absolute;
+	top: 0;
+	content: '';
+}
+
+.loader:before {
+	left: -1.5em;
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+
+.loader:after {
+	left: 1.5em;
+}
+
+@-webkit-keyframes load1 {
+	0%,
+	80%,
+	100% {
+		box-shadow: 0 0;
+		height: 4em;
+	}
+	40% {
+		box-shadow: 0 -2em;
+		height: 5em;
+	}
+}
+
+@keyframes load1 {
+	0%,
+	80%,
+	100% {
+		box-shadow: 0 0;
+		height: 4em;
+	}
+	40% {
+		box-shadow: 0 -2em;
+		height: 5em;
+	}
+}
